@@ -1,342 +1,61 @@
-
-/* font-family: 'Playfair Display', serif; */
-/* font-family: 'Playfair Display', serif;*/
 *{
     margin: 0;
-    padding:0;}
-    h1,p,li{
-        font-family: 'Playfair Display', serif;
-    }
-    h3{
-        font-family: 'Playfair Display', serif;
-    }
-header{
-
-overflow: hidden;
-
-margin: 30px 5%;
-
-width: 90%;
-
-margin: auto;
-
-margin-top: 30px;
+    padding: 0;
 }
-.logo{
-    width: 20%;float: left;}
-.logo img{
-
+body{
+background-color: #f4f4f4;
 }
-nav{
-
-}
-nav {
-    width: 50%;
-    float: right;
-}
-nav ul{
-    
-list-style: none;
-    
-overflow: hidden;
-    
-float: right;
-}
-nav ul li{
-
-float: left;
-
-margin-left: 50px;
-
-color: #626262;
-}
-nav ul li a{
- font-family: 'Playfair Display', serif; 
-text-decoration: none;
-     
-text-transform: uppercase;
-     
-color: #626262;
-}
-.banner{
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-}
-.banner img{
-    width: 100%;
-    
-}
-.photodiary{width: 80%;
-    margin: 50px auto;
-
-}
-              
-.photodiary h3{
-    color: #b4ad9e;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 400;
-}
-.photodiary h1{
-         color: #626262;
-        font-size: 40px;
-        margin: 30px 0px;
-        font-family: 'Playfair Display', serif; 
-    }
-.photodiary p{color: #626262;
-    margin-bottom: 30px;}
-
-.lifestyle{
-    margin: 0;
-    padding:0;
-}
-header{
-
-overflow: hidden;
-
-margin: 30px 5%;
-
-width: 90%;
-
-margin: auto;
-
-margin-top: 30px;
-}
-.logo{
-    width: 20%;float: left;}
-.logo img{
-
-}
-nav{
-
-}
-nav {
-    width: 50%;
-    float: right;
-}
-nav ul{
-    
-list-style: none;
-    
-overflow: hidden;
-    
-float: right;
-}
-nav ul li{
-
-float: left;
-
-margin-left: 50px;
-
-color: #626262;
-}
-nav ul li a{
-    font-family: 'Playfair Display', serif; 
-text-decoration: none;
-     
-text-transform: uppercase;
-     
-color: #626262;
-}
-.banner{
-    width: 90%;
-    margin: auto;
-    margin-top: 30px;
-}
-.banner img{
-    width: 100%;
-    
-}
-.photodiary{width: 80%;
-    margin: 50px auto;
-
-}
-              
-.photodiary h3{
-    color: #b4ad9e;
-        text-transform: uppercase;
-        font-size: 16px;
-        font-weight: 400;
-}
-.photodiary h1{
-         color: #626262;
-        font-size: 40px;
-        margin: 30px 0px;
-    }
-.photodiary p{color: #626262;
-    margin-bottom: 30px;}
-
-.lifestyle{
-
+.wrepper{
 width: 80%;
+margin: auto;}
 
-margin: 50px auto;
-
-overflow: hidden;
+.main_content{
+display: flex;
+margin: 100px 0;
 }
-.lifestyle_1{
-
-width: 47%;
-
-float: left;
+.form{
+    width: 50%;
 }
-.lifestyle_1 img{
-
-width: 100%;
-}
-.lifestyle_1 h3{
-
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 20px ;
-}
-.lifestyle_1 h1{  
-    font-family: 'Playfair Display', serif; 
-     color: #626262;
-    font-size: 35px;
-    margin: 15px 0px;
-}
-.lifestyle_1 p{
-    color: #626262;
-    margin-bottom: 30px;
-    font-family: 'Playfair Display', serif; 
-}
-
-.lifestyle_2{
-
-width: 47%;
-
-float: right;
-}
-.lifestyle_2 img{
-    
-width: 100%;
-}
-.lifestyle_2 h3{
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 400;
-    margin-top: 20px;
-
-}
-.lifestyle_2 h1{
-    color: #626262;
-    font-size: 35px;
-    margin: 15px 0px;
-    margin-top: 20px;
-    font-family: 'Playfair Display', serif; 
-}
-
-.lifestyle_2 p{
-color: #626262;
-margin-bottom: 30px; 
-font-family: 'Playfair Display', serif; 
-}
-
-.lifestyle_1 h3{
-
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 400;
-}
-
-.lifestyle_2 h3{
-    color: #b4ad9e;
-    text-transform: uppercase;
-    font-size: 16px;
-    font-weight: 400;
-
-}
-.newsletter{
-    background-color: #f0f0f0;
-    padding: 80px 0;
-    margin-bottom: 100px;
-    }
-    .signup{
-    width:36%;
-    margin: auto;
-    }
-    .signup h1{
-        color: #333333;
-        font-size:40px ;
-        font-weight: 400;
-        margin-bottom: 70px;
-    }
-    .signup input{
-        width: 100%;
-        border:none;
-background-color: #f0f0f0;
-padding: 20px 0;
-border-bottom: 1px solid #333;
-background: transparent;
-color: #626262;
-}
-
-.signup input::placeholder{
-    color:#626262 ;
-}
-.signup input:focus{
-bprder:none;
-outline: none;
-}
-.loadmore{
-padding: 150px 0;
-text-align: center;
-}
-.loadmore button{
-padding: 20px 30px;
-background:transparent ;
-border:1px solid #626262;
-font-size: 18px;
-cursor: pointer;
-}
-footer{
-background: #f0f0f0;
-padding: 30px 0;
-}
-.footer content{
-width: 80%;
+.form h1{
+color: #34577d;
+font-size: 30px;
+font-weight: 300;
+margin-bottom: 30px;}
+.image{
+width: 50%;
 margin: auto;
-overflow: hidden;
 }
-.term{
-width: 30%;
-float: left;
+.image img{
+    width: 100%;
+
+border-radius: 5px;}
+.info{
+display: block;
 }
-.term ul{
-    list-style: none;
-    margin-left: 30%;
+
+form{
+
 }
-.term ul li{
-    float: left;
-    margin-left: 20px;
+
+form input{
+border: none;width: 100%;border-bottom: 1px solid #fff;padding: 5px 0;margin-bottom: 10px;font-size: 14px;outline: none;
 }
-.term ul li a{
-text-decoration: none;
-text-transform: capitalize;
-font-size: 14px;
-color: #000;
+ form textarea{
+font-size: 17px;
+weight:100%;
+border: none; 
+border-bottom: 1px solid #f4f4f4;
 }
-.social_icon{
-    width: 30%;
-float: right;
+form textarea:focus,form input :focus{
+    outline: none;
+    border-color: #666;
 }
-.social_icon ul{
-    list-style: none;
-    float: right;
-    margin-right: 30%;
-}
-.social_icon ul li{
-float: left;
-margin-left: 17px;
-color: #626262;
-}
-.social_icon ul li a{
-color: #626262;
-text-decoration: none;
+
+form input[type=submit]{
+    background-color: #e3b04b;
+    width: auto;
+    padding: 15px 20px;
+    color: #fff;
+    border-radius: 5px;
+    margin: 30px 0;
 }
