@@ -8,7 +8,13 @@ background-color: #f4f4f4;
 .wrepper{
 width: 80%;
 margin: auto;}
-
+.wrepper h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    margin: 80px 0;
+    padding: 20px;
+}
 .main_content{
 display: flex;
 margin: 100px 0;
@@ -17,10 +23,26 @@ margin: 100px 0;
     width: 50%;
 }
 .form h1{
-color: #34577d;
-font-size: 30px;
+color: black;
+font-size: 35px;
 font-weight: 300;
 margin-bottom: 30px;}
+.form p{
+    color: #666;
+}
+.information{
+
+display: flex;justify-content: space-between;margin: 20px 0;}
+.address{
+padding-bottom: 15px;
+}
+.information h3{
+color: #03030333;
+padding-bottom: 10px;
+}
+.information p{
+    color: #666;
+}
 .image{
 width: 50%;
 margin: auto;
@@ -38,11 +60,11 @@ form{
 }
 
 form input{
-border: none;width: 100%;border-bottom: 1px solid #fff;padding: 5px 0;margin-bottom: 10px;font-size: 14px;outline: none;
+border: none;width: 100%;border-bottom: 1px solid #f4f4f4;padding: 10px 0;margin-bottom: 5px;font-size: 17px;outline: none;
 }
  form textarea{
-font-size: 17px;
-weight:100%;
+font-size: 16px;
+width:100%;
 border: none; 
 border-bottom: 1px solid #f4f4f4;
 }
