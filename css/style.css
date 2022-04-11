@@ -1,48 +1,35 @@
-*{
+
+ *{
     margin: 0;
     padding: 0;
 }
 body{
-background-color: #f4f4f4;
+background-color: #fff;
 }
+
 .wrepper{
 width: 80%;
 margin: auto;}
-.wrepper h2{
-    text-align: center;
+
+.wrepper h2{ 
+     text-align: center;
     font-size: 40px;
     font-weight: 400;
-    margin: 80px 0;
+    margin: 80px auto;
     padding: 20px;
-}
+   } 
+
 .main_content{
-display: flex;
-margin: 100px 0;
-}
+
+margin: 100px;
+display: flex;box-shadow: 1px 1px 8px 0 #666;}
 .form{
     width: 50%;
 }
 .form h1{
-color: black;
-font-size: 35px;
-font-weight: 300;
-margin-bottom: 30px;}
-.form p{
-    color: #666;
+    color: purple;
 }
-.information{
 
-display: flex;justify-content: space-between;margin: 20px 0;}
-.address{
-padding-bottom: 15px;
-}
-.information h3{
-color: #03030333;
-padding-bottom: 10px;
-}
-.information p{
-    color: #666;
-}
 .image{
 width: 50%;
 margin: auto;
@@ -53,21 +40,23 @@ margin: auto;
 border-radius: 5px;}
 .info{
 display: block;
-}
+padding-bottom: 40px;}
 
 form{
 
 }
 
 form input{
-border: none;width: 100%;border-bottom: 1px solid #f4f4f4;padding: 10px 0;margin-bottom: 5px;font-size: 17px;outline: none;
+border: none;width: 100%;border-bottom: 1px solid #f4f4f4;
+padding: 10px 0;
+margin-bottom: 10px;font-size: 17px;outline: none;
 }
  form textarea{
 font-size: 16px;
 width:100%;
 border: none; 
 border-bottom: 1px solid #f4f4f4;
-}
+margin-top: 10px;}
 form textarea:focus,form input :focus{
     outline: none;
     border-color: #666;
@@ -79,17 +68,24 @@ form input[type=submit]{
     padding: 15px 20px;
     color: #fff;
     border-radius: 5px;
-    margin: 30px 0;
+    margin: 10px 0;
 }
+
 .follow{
+  
+margin-left: 50px;}
+.follow h3{
+    color:#666
     
 }
 .icon{
 
-display: flex;margin: 15px;justify-content: space-evenly;}
+  
+}
+
 .icon ul{
 
-}
-.icon ul a{
+margin-left: 20px;display: flex;justify-content: center;}
 
+.icon ul  a{
 }
