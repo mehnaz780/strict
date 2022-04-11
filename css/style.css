@@ -1,35 +1,48 @@
-
- *{
+*{
     margin: 0;
     padding: 0;
 }
 body{
-background-color: #fff;
+background-color: #f4f4f4;
 }
-
 .wrepper{
 width: 80%;
 margin: auto;}
-
-.wrepper h2{ 
-     text-align: center;
+.wrepper h2{
+    text-align: center;
     font-size: 40px;
     font-weight: 400;
-    margin: 80px auto;
+    margin: 80px 0;
     padding: 20px;
-   } 
-
+}
 .main_content{
-
-margin: 100px;
-display: flex;box-shadow: 1px 1px 8px 0 #666;}
+display: flex;
+margin: 100px 0;
+box-shadow: 2px 1px 5px 3px #666;}
 .form{
     width: 50%;
 }
 .form h1{
-    color: purple;
+color: black;
+font-size: 35px;
+font-weight: 300;
+margin-bottom: 30px;}
+.form p{
+    color: #666;
 }
+.information{
 
+display: flex;justify-content: space-between;margin: 20px 0;}
+.address{
+padding-bottom: 15px;
+}
+.information h3{
+color: #03030333;
+padding-bottom: 10px;
+}
+.information p{
+    color: #666;
+}
 .image{
 width: 50%;
 margin: auto;
@@ -40,25 +53,30 @@ margin: auto;
 border-radius: 5px;}
 .info{
 display: block;
-padding-bottom: 40px;}
+}
 
 form{
 
 }
 
 form input{
-border: none;width: 100%;border-bottom: 1px solid #f4f4f4;
-padding: 10px 0;
-margin-bottom: 10px;font-size: 17px;outline: none;
-}
+border: none;
+width: 100%;
+border-bottom: 1px solid #fff;
+padding: 10px 0;margin-bottom: 5px;font-size: 17px;
+outline: none;
+background-color: #F4F4F4;}
+
  form textarea{
 font-size: 16px;
 width:100%;
 border: none; 
-border-bottom: 1px solid #f4f4f4;
-margin-top: 10px;}
+border-bottom: 1px solid #fff;
+background-color: #F4F4F4;}
+
 form textarea:focus,form input :focus{
     outline: none;
+    border-bottom: 1px;
     border-color: #666;
 }
 
@@ -68,24 +86,25 @@ form input[type=submit]{
     padding: 15px 20px;
     color: #fff;
     border-radius: 5px;
-    margin: 10px 0;
+   
 }
-
 .follow{
-  
-margin-left: 50px;}
-.follow h3{
-    color:#666
     
 }
-.icon{
-
-  
+.follow h3{
+margin-top: 20px;
+margin-left: 30px;
+color: #666;
 }
 
+.icon{
+
+display: flex;
+justify-content: center;}
+
 .icon ul{
+margin-right: 15px;}
 
-margin-left: 20px;display: flex;justify-content: center;}
+.icon ul a{
 
-.icon ul  a{
 }
