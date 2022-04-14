@@ -98,3 +98,140 @@ color: #fff;
       bottom:13%;
      }
     }
+
+.content{
+    background-color: #f6f9f9;
+height: 200px;}
+
+.content h2{
+text-align: center;
+font-size: 25px;padding-bottom: 30px;padding-top: 30px;
+font-family: 'Lato', sans-serif;
+color: #2d3950;
+}
+
+.content p{
+    color:#ced0d0 ;
+font-size: 15px;
+text-align: center;
+font-family: 'Lato', sans-serif;
+
+}
+.middle_content{
+ display: flex;
+width: 100%; 
+ height: 150px; 
+justify-content: unset;
+ margin: 70px; 
+}
+.phone{
+
+margin-left: 10%;}
+.phone img{
+
+margin-left: 50Px;}
+
+.phone h4{
+    font-family: 'Lato', sans-serif;
+margin: 15px;font-size: 18px;font-weight: 600;
+color:#596070 ;
+}
+
+.phone p{
+    font-family: 'Lato', sans-serif;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+
+.arrow{
+margin-right: 30px;margin-left: 8%;}
+
+.arrow img{
+margin-left: 50px;}
+
+.arrow h4{
+    font-family: 'Lato', sans-serif;
+margin: 15px;font-size: 18px;font-weight: 600;
+color:#596070 ;
+}
+.arrow p{
+    font-family: 'Lato', sans-serif;
+    color: #b0b0b0;
+    font-size: 14px;
+}
+.speaker{
+margin-left: 8%;}
+
+.speaker img{
+
+}
+.speaker h4{
+    font-family: 'Lato', sans-serif;
+margin: 15px;font-size: 18px;font-weight: 600;
+color:#596070 ;
+}
+
+.speaker p{
+    font-family: 'Lato', sans-serif;
+   color: #b0b0b0;
+   font-size: 14px;
+}
+
+ .content_wrepper{
+  /* height: 700px; */
+  background-color:#f6f9f9;
+ }
+ 
+ .content_wrepper h1{
+    font-family: 'Lato', sans-serif;
+    color: #2d3950;
+ font-size: 35px;font-weight: 400;text-align: center;margin-top: 80px;
+
+/* margin-bottom: 0px; */}
+.content_wrepper h5{
+color:#989898;
+ text-align: center;margin-top: 20px;
+ font-family: 'Lato', sans-serif;
+font-size: 11px;margin-bottom: 60px;}
+
+ .wrepper{
+    
+   }
+.left{
+
+margin-left: 12%;}
+
+ .left img {
+
+ margin: 9px;}
+.cover{
+    background-image:url( ../images/information.png );
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 88vh;
+margin: 60px;}
+footer{
+ /* height: 100px; */
+}
+.footer_content{
+display: flex;
+justify-content: space-between;}
+.terms{
+
+margin-left: 15%;}
+.terms h5{
+
+}
+.social_icon{
+    
+}
+.social_icon ul {
+list-style:none;
+    
+}
+.social_icon ul li {
+
+}
+.social_icon ul li a{
+
+} 
